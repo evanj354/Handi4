@@ -12,7 +12,6 @@ public class LookingFor extends AppCompatActivity {
         setContentView(R.layout.activity_looking_for);
     }
 
-
     public void jumpToPage(View view) {
         mViewPager.setCurrentItem(1);
     }
