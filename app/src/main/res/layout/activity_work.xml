@@ -42,8 +42,8 @@
 
     <CheckBox
         android:id="@+id/checkBox8"
-        android:layout_width="327dp"
-        android:layout_height="37dp"
+        android:layout_width="205dp"
+        android:layout_height="38dp"
         android:text="Good in high temperatures"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="427dp" />
@@ -75,4 +75,13 @@
         android:text="Paint well"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="390dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
+        android:text="Done"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="423dp"
+        android:onClick="jumpToPageProfiles"/>
 </android.support.constraint.ConstraintLayout>
