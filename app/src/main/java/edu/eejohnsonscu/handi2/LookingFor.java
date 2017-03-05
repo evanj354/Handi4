@@ -13,4 +13,7 @@ public class LookingFor extends AppCompatActivity {
     }
 
 
+    public void jumpToPage(View view) {
+        mViewPager.setCurrentItem(1);
+    }
 }

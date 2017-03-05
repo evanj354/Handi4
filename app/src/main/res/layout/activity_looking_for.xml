@@ -30,7 +30,8 @@
         android:text="Work"
         android:layout_gravity="center_horizontal"
         tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="231dp" />
+        tools:layout_editor_absoluteY="231dp"
+        android:onClick="jumpToPage" />
 
     <Button
         android:id="@+id/workersButton"
@@ -38,7 +39,8 @@
         android:layout_height="wrap_content"
         android:text="Workers"
         tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="231dp" />
+        tools:layout_editor_absoluteY="231dp"
+        android:onClick="jumpToPage" />
 
     </FrameLayout>
 </RelativeLayout>
